@@ -1,0 +1,42 @@
+.section1 {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(240,22,228,0.98) 0%, rgba(87,220,251,1) 100.3% );
+}
+.section2 {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(21,81,192,1) 0%, rgba(234,131,206,1) 54.8% );
+}
+
+.section3 {
+  background-image: linear-gradient( 110.8deg, #14ccb0 10.4%, #061495 91% );
+}
+
+.section4 {
+  background-image: linear-gradient( 248.2deg, rgba(242,13,13,0.74) 30.4%, rgba(249,244,53,1) 91.1% );
+}
+
+.section5 {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(155,17,30,1) 0%, rgba(120,81,169,1) 90% );
+}
+
+section div {
+  font-family: "Open Sans";
+  font-style: normal;
+  text-align: center;  
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  }
+span {
+  font-size: 2em;
+  font-style: normal;
+  color: #fff;
+}
+.button {
+  background-color: #f2cf66;
+  border-bottom: 5px solid #d1b358;
+  text-shadow: 0px -2px #d1b358;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #fff;
+  text-decoration: none;
+}
